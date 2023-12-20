@@ -16,6 +16,8 @@ const Home = () => {
         <Contain />
       </div>
       <div>
+        <h1>Version 3</h1>
+        <h1>Version 3</h1>
         <Footer />
       </div>
     </div>
