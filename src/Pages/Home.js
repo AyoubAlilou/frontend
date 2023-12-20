@@ -7,6 +7,7 @@ import Autho from '../Components/Autho'
 const Home = () => {
   return (
     <div>
+      <h1>Version 2 </h1>
       <NavBar />
       <div></div>
 
