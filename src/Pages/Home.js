@@ -12,6 +12,7 @@ const Home = () => {
       <div></div>
 
       <div>
+        <h1>Version 2 </h1>
         <Contain />
       </div>
       <div>
