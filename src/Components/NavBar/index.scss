@@ -1,0 +1,77 @@
+// index.scss
+
+.nav-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #75bb1a;
+  }
+  
+  .branding {
+    // Styles for branding on the left
+  }
+  
+  .search-bar {
+    flex-grow: 1; // Take remaining space in the middle
+    margin: 0 200px; // Add some space around the search bar
+    
+    .form-input{
+      margin-bottom: 40px;
+        margin-left: 100px;
+        display: flex;
+        width: 75px;
+        height: 30px;
+    }
+
+
+    input {
+      width: 100%;
+      padding: 5px;
+    }
+    button {
+      margin-left: 10px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  }
+  
+  .user-actions {
+    display: flex;
+    align-items: center;
+  
+    .profile {
+      margin-right: 10px;
+      // Styles for user profile
+    }
+  
+    .login-logout {
+      button {
+        padding: 5px 10px;
+        cursor: pointer;
+        width: 150px;
+        height: 50px;
+      }
+    }
+  }
+  
+  // Media query for responsiveness
+  @media (max-width: 768px) {
+    .nav-bar-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .search-bar {
+      margin-top: 10px;
+    }
+  
+    .user-actions {
+      margin-top: 10px;
+      .profile {
+        margin-right: 0;
+      }
+    }
+  }
+  
